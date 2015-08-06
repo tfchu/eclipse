@@ -10,9 +10,9 @@ echo "Y" | sudo apt-get install default-jre
 echo "Y" | sudo apt-get install default-jdk
 
 #Eclipse download, unzip and create shortcut
-wget -O /home/test/Desktop/ "http://ftp.osuosl.org/pub/eclipse/technology/epp/downloads/release/mars/R/eclipse-jee-mars-R-linux-gtk-x86_64.tar.gz"
+wget -O /home/test/Desktop/eclipse-jee-mars-R-linux-gtk-x86_64.tar.gz "http://ftp.osuosl.org/pub/eclipse/technology/epp/downloads/release/mars/R/eclipse-jee-mars-R-linux-gtk-x86_64.tar.gz"
 
-sudo tar -xvzf eclipse-jee-mars-R-linux-gtk-x86_64.tar.gz -C /usr/local/
+sudo tar -xvzf /home/test/Desktop/eclipse-jee-mars-R-linux-gtk-x86_64.tar.gz -C /usr/local/
 
 ln -s /usr/local/eclipse/eclipse /home/test/Desktop/eclipse
 
